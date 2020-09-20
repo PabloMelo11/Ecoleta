@@ -1,5 +1,13 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
+
+const Detail = () => {
+  return (
+    <View>
+      <Text>Detail</Text>
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -74,3 +82,5 @@ const styles = StyleSheet.create({
     fontFamily: "Roboto_500Medium",
   },
 });
+
+export default Detail;
