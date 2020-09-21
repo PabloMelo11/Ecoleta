@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import knex from "../database/connection";
 
-class PoinstController {
+class PointsController {
   async index(request: Request, response: Response) {
     const { city, uf, items } = request.query;
 
@@ -85,4 +85,4 @@ class PoinstController {
   }
 }
 
-export default PoinstController;
+export default PointsController;
